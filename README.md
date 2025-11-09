@@ -25,3 +25,42 @@ While the original focused on CRUD and data validation, **PAE-Sync** explores **
 | **Database 3** | Elasticsearch | Provides advanced search and fuzzy matching |
 
 ---
+
+## Demo
+
+A few highlights of **PAE-Sync** in action — showing how courses are created, synchronized, and queried across multiple databases.
+
+### Adding a Course
+<p align="center">
+  <img src="./assets/demo/adding-course.gif" width="700" alt="Adding a new course in PAE-Sync">
+</p>
+
+---
+
+### Data Synchronization (MongoDB + Neo4j)
+<p align="center">
+  <img src="./assets/demo/course-added-to-mongodb-and-neo4j.gif" width="700" alt="Course synchronized between MongoDB and Neo4j">
+</p>
+
+---
+
+### Adding a Prerequisite
+<p align="center">
+  <img src="./assets/demo/adding-a-prerequisite.gif" width="700" alt="Adding a prerequisite link between courses">
+</p>
+
+---
+
+### Prerequisite Proof in Neo4j
+<p align="center">
+  <img src="./assets/demo/prerequisite-added-proof.gif" width="700" alt="Verifying prerequisite relationship in Neo4j">
+</p>
+
+---
+
+### Fuzzy Search (Elasticsearch)
+<p align="center">
+  <img src="./assets/demo/elasticsearch-demo.gif" width="700" alt="Fuzzy search demonstration powered by Elasticsearch">
+</p>
+
+---
